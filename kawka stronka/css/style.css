@@ -1,0 +1,182 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 50%;
+    height: 100px;
+    background-color: rgba(210, 105, 30, 0.568);
+    float: left;
+    border:groove 2px  bisque;
+    border-right: transparent;
+    border-style: outset;
+    border-top: rgb(65, 40, 28);
+    border-left: rgb(65, 40, 28);
+    
+    
+}
+
+#menu {
+    width: 50%;
+    height: 100px;
+    background-color: rgba(210, 105, 30, 0.568);
+    float: left;
+    border: groove 2px bisque;
+    border-left: transparent;
+    border-style: outset;
+    border-top: rgb(65, 40, 28);
+    border-right: rgb(65, 40, 28);;
+
+}
+
+#baner {
+    width: 100%;
+    height: 120px;
+    background-color: rgba(74, 45, 32);
+    float: left;
+    text-align: center;
+    color: rgba(74, 45, 32, 0.418);
+    letter-spacing: 8px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    box-sizing: inset 0 0 1px #000;
+    text-shadow: 1px 1px 1px rgba(255, 228, 196, 0.644);
+    font-size: xx-large;
+    position: relative;
+    line-height: 40px;
+}
+
+#lewy {
+    width: 50%;
+    height: 630px;
+
+    background-color: bisque;
+    background-image: linear-gradient(30deg, rgba(74, 45, 32) 12%, transparent 12.5%, transparent 87%, rgba(74, 45, 32) 87.5%, rgba(74, 45, 32)),
+        linear-gradient(150deg, rgba(74, 45, 32) 12%, transparent 12.5%, transparent 87%, rgba(74, 45, 32) 87.5%, rgba(74, 45, 32)),
+        linear-gradient(30deg, rgba(74, 45, 32) 12%, transparent 12.5%, transparent 87%, rgba(74, 45, 32) 87.5%, rgba(74, 45, 32)),
+        linear-gradient(150deg, rgba(74, 45, 32) 12%, transparent 12.5%, transparent 87%, rgba(74, 45, 32) 87.5%, rgba(74, 45, 32)),
+        linear-gradient(60deg, rgba(210, 105, 30, 0.568) 25%, transparent 25.5%, transparent 75%, rgba(210, 105, 30, 0.568) 75%, rgba(210, 105, 30, 0.568)),
+        linear-gradient(60deg, rgba(210, 105, 30, 0.568) 25%, transparent 25.5%, transparent 75%, rgba(210, 105, 30, 0.568) 75%, rgba(210, 105, 30, 0.568));
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+
+    float: left;
+    text-align: left;
+    color: bisque;
+    font-size: xx-large;
+    line-height: 60px;
+    text-shadow: 2px 2px 3px black;
+
+}
+
+#prawy {
+    width: 50%;
+    height: 630px;
+    float: left;
+    background-color: bisque;
+    background-image: linear-gradient(30deg, rgba(74, 45, 32) 12%, transparent 12.5%, transparent 87%, rgba(74, 45, 32) 87.5%, rgba(74, 45, 32)),
+        linear-gradient(150deg, rgba(74, 45, 32) 12%, transparent 12.5%, transparent 87%, rgba(74, 45, 32) 87.5%, rgba(74, 45, 32)),
+        linear-gradient(30deg, rgba(74, 45, 32) 12%, transparent 12.5%, transparent 87%, rgba(74, 45, 32) 87.5%, rgba(74, 45, 32)),
+        linear-gradient(150deg, rgba(74, 45, 32) 12%, transparent 12.5%, transparent 87%, rgba(74, 45, 32) 87.5%, rgba(74, 45, 32)),
+        linear-gradient(60deg, rgba(210, 105, 30, 0.568) 25%, transparent 25.5%, transparent 75%, rgba(210, 105, 30, 0.568) 75%, rgba(210, 105, 30, 0.568)),
+        linear-gradient(60deg, rgba(210, 105, 30, 0.568) 25%, transparent 25.5%, transparent 75%, rgba(210, 105, 30, 0.568) 75%, rgba(210, 105, 30, 0.568));
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+
+}
+
+#dol {
+    width: 100%;
+    height: 111px;
+    background-color: rgba(74, 45, 32);
+    color: bisque;
+    text-align: right;
+    float: left;
+    text-shadow: 1px 1px 3px black;
+}
+
+h1 {
+    margin-top: 40px;
+}
+
+h3 {
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
+h2 {
+    margin-left: 60px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+p {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 300px;
+    font-size: large;
+}
+
+ol {
+    margin-left: 50px;
+}
+
+u {
+    border-style: inset;
+    border-radius: 1px;
+    border-color: bisque;
+    border-radius: 10px;
+    border-top-color: brown;
+    border-left-color: brown;
+    border-width: 5px;
+    padding: 10px;
+}
+
+a {
+    color: brown;
+    background-color: transparent;
+    text-decoration: brown;
+}
+
+a:hover {
+    color: bisque;
+    background-color: transparent;
+    text-decoration: bisque;
+}
+
+a:hover,
+a:active {
+    font-size: 105%;
+}
+hr{
+    color: rgba(255, 228, 196, 0.644);
+    width: 28%;
+    height: 3px;
+    margin-left: 10%;
+    background-color: rgba(112, 73, 57, 0.37);
+    position: relative;
+    top: -15px;
+    border: 0px;
+    box-shadow: 2px 2px 4px  rgba(255, 228, 196, 0.644) ;
+    
+    
+    
+}
+#linia{
+    height: 3px;
+    width: 28%;
+    margin-left: 62%;
+    background-color: rgba(112, 73, 57, 0.37);
+    position: relative;
+    top: -20px;
+    border: 0px;
+    box-shadow: 2px 2px 4px  rgba(255, 228, 196, 0.644) ;
+    
+    
+}
+img{mix-blend-mode: multiply;
+    position:relative;
+    bottom: 2px;
+}
